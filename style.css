@@ -3,6 +3,9 @@
     margin: 0;
     font-family: Poppins;
 }
+html {
+    background-color: #181818;
+}
 ul {
     padding: 0;
     margin: 0;
@@ -40,10 +43,105 @@ ul {
 }
 .main-navigation-cta {
     border-radius: 14px;
-    padding: 9px 20px 13px 20px;
+    padding: 10px 20px;
     font-size: 1rem;
     line-height: 1.25rem;
     letter-spacing: 0.4px;
     color: #000000;
+    border: none;
+}
 
+/*profiles*/
+.profiles-section {
+    margin: 120px;
+}
+.profiles-capture {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profiles-capture-title {
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.profiles-capture-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #C0C0C0;
+}
+.profiles-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 16px;
+}
+.profiles-card {
+
+    background-size: cover;
+}
+.profiles-card-1 {
+    background-image: url("assets/profiles-1.png");
+}
+.profiles-card-2 {
+    background-image: url("assets/profiles-2.png");
+}
+.profiles-card-3 {
+    background-image: url("assets/profiles-3.png");
+}
+.profiles-card-4 {
+    background-image: url("assets/profiles-4.png");
+}
+.profiles-card-wrapper {
+    /*width: 36rem;*/
+    min-height: 36rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 30px;
+    color: #fff;
+}
+.profiles-card__title {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+.profiles-card__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 8px;
+}
+.profiles-card__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9rem;
+    height: 3rem;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    background-color: white;
+    border-radius: 14px;
+    border: none;
+}
+.circle {
+    background-color: #000;
+    width: 21px;
+    height: 21px;
+    border-radius: 8px;
+    margin-right: 6px;
+    display: inline-block;
 }
