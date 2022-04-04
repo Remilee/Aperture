@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.main-header {
+
+    background-color: #181818;
+}
+.main-header-wrapper {
+    margin-left: 9.5rem;
+    margin-right: 8.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.625rem;
+}
+.main-header-logo {
+    width: 8rem;
+    height: 1.94rem;
+}
+.main-navigation-list {
+    display: flex;
+    align-items: baseline;
+}
+.main-navigation-item {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 0.938rem;
+    margin-right: 2rem;
+}
+.main-navigation-item--business {
+    font-size: 13px;
+    margin-right: 52px;
+}
+.main-navigation-cta {
+    border-radius: 14px;
+    padding: 9px 20px 13px 20px;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.4px;
+    color: #000000;
+
+}
