@@ -1,56 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: Poppins;
-}
-html {
-    background-color: #181818;
-}
-ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-.main-header {
-
-    background-color: #181818;
-}
-.main-header-wrapper {
-    margin-left: 9.5rem;
-    margin-right: 8.75rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 5.625rem;
-}
-.main-header-logo {
-    width: 8rem;
-    height: 1.94rem;
-}
-.main-navigation-list {
-    display: flex;
-    align-items: baseline;
-}
-.main-navigation-item {
-    color: #FFFFFF;
-    font-weight: 400;
-    font-size: 0.938rem;
-    margin-right: 2rem;
-}
-.main-navigation-item--business {
-    font-size: 13px;
-    margin-right: 52px;
-}
-.main-navigation-cta {
-    border-radius: 14px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    line-height: 1.25rem;
-    letter-spacing: 0.4px;
-    color: #000000;
-    border: none;
-}
-
 /*profiles*/
 .profiles-section {
     margin: 120px;
@@ -84,23 +31,21 @@ ul {
     gap: 16px;
 }
 .profiles-card {
-
     background-size: cover;
 }
 .profiles-card-1 {
-    background-image: url("assets/profiles-1.png");
+    background-image: url("../assets/profiles-1.png");
 }
 .profiles-card-2 {
-    background-image: url("assets/profiles-2.png");
+    background-image: url("../assets/profiles-2.png");
 }
 .profiles-card-3 {
-    background-image: url("assets/profiles-3.png");
+    background-image: url("../assets/profiles-3.png");
 }
 .profiles-card-4 {
-    background-image: url("assets/profiles-4.png");
+    background-image: url("../assets/profiles-4.png");
 }
 .profiles-card-wrapper {
-    /*width: 36rem;*/
     min-height: 36rem;
     display: flex;
     flex-direction: column;
@@ -136,12 +81,4 @@ ul {
     background-color: white;
     border-radius: 14px;
     border: none;
-}
-.circle {
-    background-color: #000;
-    width: 21px;
-    height: 21px;
-    border-radius: 8px;
-    margin-right: 6px;
-    display: inline-block;
 }

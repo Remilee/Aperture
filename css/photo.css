@@ -1,0 +1,64 @@
+.photo {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+.photo-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: end;*/
+    /*margin: 260px 60px 204px auto;*/
+}
+.photo-caption {
+    width: 18.75rem;
+    margin-top: 260px;
+    margin-left: auto;
+    margin-right: 62px;
+}
+.photo-caption__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.88rem;
+    line-height: 1.25;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.photo-caption__description {
+    font-weight: 400;
+    font-size: 0.88rem;
+    line-height: 20px;
+    color: #C0C0C0;
+    width: 298px;
+    margin-bottom: 204px;
+    display: block;
+}
+.photo__mountain {
+    background-image: url("../assets/mountain.png");
+}
+.photo__leafs {
+    background-image: url("../assets/leafs.png");
+}
+.photo__night-mountains {
+    background-image: url("../assets/night-mountains.png");;
+}
+.photo-param-list {
+    display: flex;
+    margin-right: 40px;
+    margin-left: auto;
+}
+.photo-param {
+    display: flex;
+    align-items: start;
+    margin-right: 16px;
+}
+.photo-param-img {
+    margin-right: 7px;
+}
+.photo-param-label {
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,28 @@
+.clients-wrapper {
+    margin: 120px 120px 100px 120px;
+    display: flex;
+    flex-direction: column;
+}
+.clients-title {
+    margin-bottom: 15px;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.clients-description {
+    margin-bottom: 42px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+}
+.clients-companies-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clients-companies-item {
+    margin-right: 109px;
+}
