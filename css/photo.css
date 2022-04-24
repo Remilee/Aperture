@@ -44,21 +44,3 @@
 .photo__night-mountains {
     background-image: url("../assets/night-mountains.png");;
 }
-.photo-param-list {
-    display: flex;
-    margin-right: 40px;
-    margin-left: auto;
-}
-.photo-param {
-    display: flex;
-    align-items: start;
-    margin-right: 16px;
-}
-.photo-param-img {
-    margin-right: 7px;
-}
-.photo-param-label {
-    font-size: 12px;
-    line-height: 12px;
-    color: #FFFFFF;
-}

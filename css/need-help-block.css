@@ -1,0 +1,27 @@
+.need-help {
+
+}
+.need-help-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 420px 108px 420px;
+}
+.need-help-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    display: block;
+    text-align: center;
+}
+.need-help-description {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C0C0C0;
+    margin-bottom: 12px;
+    display: block;
+}

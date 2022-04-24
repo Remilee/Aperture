@@ -67,18 +67,4 @@
     color: #C0C0C0;
     margin-bottom: 8px;
 }
-.profiles-card__button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 9rem;
-    height: 3rem;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    letter-spacing: 0.4px;
-    color: #000000;
-    background-color: white;
-    border-radius: 14px;
-    border: none;
-}
+
