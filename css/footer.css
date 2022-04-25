@@ -2,7 +2,7 @@ footer {
 
 }
 .footer-separator {
-    border-top: 2px solid #fff;
+
 }
 .footer-wrapper {
     margin: 100px 136px;
@@ -12,8 +12,9 @@ footer {
     margin-bottom: 36px;
 }
 .footer-logo-section {
-    margin-right: 252px;
-    width: 457px;
+    /*margin-right: 252px;*/
+    /*width: 457px;*/
+    flex-basis: 60%;
 }
 .footer-logo {
     width: 128px;
@@ -30,7 +31,6 @@ footer {
 
 .footer-navigation {
     display: flex;
-
 }
 .footer-nav {
     display: flex;
@@ -52,5 +52,63 @@ footer {
     text-transform: uppercase;
     color: #C0C0C0;
     margin-bottom: 10px;
+}
+
+.subscribe-section {
+    margin: 35px auto;
+    display: flex;
+}
+.subscribe-title-description {
+    flex-basis: 60%;
+}
+.subscribe-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.subscribe-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0
+}
+.subscribe-input {
+
+}
+.subscribe-input-textarea {
+    width: 458px;
+    height: 52px;
+    border-radius: 12px;
+    resize: none;
+}
+.subscribe-input-circle {
+    position: relative;
+    bottom: 49px;
+    left: 386px;
+    width: 63px; !important;
+    height: 30px; !important;
+}
+.copyright-socials {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+.copyright {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.socials-list {
+    display: flex;
+}
+.socials-item {
+    margin-right: 20px;
 }
 
